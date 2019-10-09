@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Coffee Shop Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <link rel="stylesheet" href="sasacss.css">
+</head>
+<body>
+  <div class="navbar">
+       <div class="nav-items" >Home</div>
+       <div class="nav-items" >About</div>
+       <div class="nav-items" >Menu</div>
+       <div class="nav-items" >Where</div>
+  </div>
+<div class="header">
+  <h1>the<br>Cafe</h1>
+  <div class="badge">Open from 6am to 5pm</div>
+</div>
+  <div class="about"><p>ABOUT THE CAFE</p></div >
+    <div class="content">
+    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+       ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>In addition to our full espresso and brew bar menu, we serve fresh made-to-
+       order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+    </p>
+    <div style="background-color: rgb(131, 218, 131); height: 200px; width: 100%; border-left: 7px solid green">
+       <p style="padding: 10px"><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+       <p style="padding: 10px"><b>Chef, Coffeeist and Owner: Liam Brown</b></p>
+    </div>
+    <img src="https://www.w3schools.com/w3images/coffeeshop.jpg" style="width: 101%; margin-top: 30px">
+    <p><b>Opening hours:</b> everyday from 6am to 5pm.<br><br><b>Address:</b>15 Adr street, 5015, NY</p>
+   <div class="about"><p style="color: white"> THE MENU</p></div >
+   
+                  <div class="fasaan">
+                    <div class="fasaanchild">
+                      <div onclick="myfun1()" id="fasaanid1" style="background-color: cyan"><p>Eat</p></div>
+                      <div onclick="myfun2()" id="fasaanid2"><p>Drink</p></div>
+                    </div>
+                    <div style="padding: 10px; display: block" id="fasaanid3">
+                        <p><b>Bread Basket</b></p>
+                        <p><i>Assortment of fresh baked fruit breads and muffins 5.50</i></p><br><br>
+                        <p><b>Honey Almond Granola with Fruits</b></p>
+                        <p><i>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</i></p><br><br>
+                        <p><b>Belgian Waffle</b></p>
+                        <p><i>Vanilla flavored batter with malted flour 7.50</i></p><br><br>
+                        <p><b>Scrambled eggs</b></p>
+                        <p><i>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</i></p>
+                      </div>
+                      <div style="padding: 10px; display: none" id="fasaanid4">
+                          <p><b>Coffee</b></p>
+                          <p><i>Assortment of fresh baked fruit breads and muffins 5.50</i></p><br><br>
+                          <p><b>Chocolato</b></p>
+                          <p><i>Chocolate espresso with milk 4.50</i></p><br><br>
+                          <p><b>Corretto</b></p>
+                          <p><i>Whiskey and coffee 5.00</i></p><br><br>
+                          <p><b>Iced tea</b></p>
+                          <p><i>Hot tea, except not hot 3.00</i></p>
+                      </div>
+                  </div>
+   <div class="about"><p style="color: white">WHERE TO FIND US</p></div >
+    <p style="margin-top: 50px; ">Find us at some address at some place.</p>
+    <img src="https://www.w3schools.com/w3images/map.jpg"  style="width: 101%; margin-top: 30px">
+    <div style="margin-top: 50px"><span style="color: white; background-color: black; padding: 5px;margin-top: 50px">FIY!</span><p  style="text-indent: 60px;  display: inline; "><span style="text-indent: 100px"> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</span> </p></div>
+
+<div> <p><b>Reserve</b> a table, ask for today's special or just send us a message:</p></div>
+<form class="forms">
+  <input type="text" placeholder="Name">
+  <input type="text" placeholder="How many people">
+  <input type="datetime-local" >
+  <input type="text" placeholder="Massage / Special requirements">
+  <input type="submit" value="SEND MASSAGE" class="insub">
+
+</form>
+</div>
+
+<footer class="foot"> 
+  <p style="background-color: black; color: white; display: inline; padding: 10px">Created by SAURABH JAISWAL</p>
+
+</footer>
+
+
+<script>
+ function myfun1(){
+   document.getElementById("fasaanid1").style.backgroundColor = "cyan";
+   document.getElementById("fasaanid2").style.backgroundColor = "transparent";
+   document.getElementById("fasaanid3").style.display = "block"
+   document.getElementById("fasaanid4").style.display= "none";
+ }
+ function myfun2(){
+   document.getElementById("fasaanid2").style.backgroundColor = "cyan"
+   document.getElementById("fasaanid1").style.backgroundColor = "transparent"
+   document.getElementById("fasaanid3").style.display = "none"
+   document.getElementById("fasaanid4").style.display = "block"
+ }  
+</script>
+</body>
+</html>
