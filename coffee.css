@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    background-color: rgb(230, 215, 215);
+  }
+ .navbar{
+   height: 55px;
+   width: 100%;
+   background-color: black;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: space-around;
+   position: fixed;
+   top: 0;
+   
+ }
+ .nav-items{
+   color: white;
+   font-family: sans-serif;
+   cursor: pointer;
+   width: 23%;;
+   height: 30px;
+   padding-top: 10px;
+   text-align: center;
+ }
+ .nav-items:hover{
+   border-radius: 2px;
+   background-color: rgb(204, 203, 203);
+   color: black
+ }
+ .header{
+   height: 450px;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-blend-mode:  multiply;
+   position: relative;
+   z-index: -1;
+ }
+ .header h1{
+   color: white;
+   font-family: "Inconsolata";
+   font-size: 80px;
+   text-align: center;
+   line-height: 150px;
+   padding-top: 50px;
+   font-weight: 200
+ }
+ .badge{
+   background-color: #000;
+   display: inline;
+   color: white;
+   font-family: sans-serif;
+   margin-left: 50px ;
+   padding: 8px;
+   border-radius: 5px;
+   font-size: 13px;
+   word-spacing: 2px;
+   cursor: default
+
+ }
+ .about{
+   background-color: transparent;
+   margin-top: 70px;
+   text-align: center
+ }
+ .about p{
+   padding: 6px;
+   color: white;
+   display: inline;
+   font-family: sans-serif;
+   letter-spacing: 3px;
+   word-spacing: 2px;
+   background-color: black;
+ }
+ .content{
+   height: auto;
+   width: 700px;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+  overflow: hidden
+ }
+ .content p{
+   font-family: sans-serif;
+   font-size: 20px;
+   line-height: 35px;
+   color: rgb(59, 61, 63)
+ }
+ 
+ .fasaan{
+   height: auto;
+   width: 600px;
+   margin: auto;
+   margin-top: 50px;
+   box-shadow: 0px 0px 10px gray
+ }
+ .fasaanchild{
+   width: 100%;
+   height: 70px;
+   box-shadow: 0px 0px 10px gray;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+ }
+ #fasaanid1 {
+   width: 50%;
+   text-align: center;
+ }
+ #fasaanid2{
+   width: 50%;
+   text-align: center
+ }
+
+
+ @media screen and (max-width: 750px){
+   .content{
+      width: 100%; 
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .fasaan{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+   }
+ }
+ .forms{
+   height: auto;
+   display: flex;
+   flex-direction: column;
+ }
+ input{
+   margin: 10px;
+   height: 50px;
+   padding-left: 10px;
+   font-family: sans-serif;
+   font-size: 15px;
+   color: rgb(104, 112, 119);
+   outline-color: black
+ }
+.insub{
+ color: white;
+ background-color: black;
+ outline: none;
+ font-weight: bold;
+ border: none;
+ cursor: pointer
+} 
+.insub:hover{
+  background-color: #fff;
+  color: black;
+  transition: 0.2s
+}
+.foot{
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(170, 162, 162);
+  color: black;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+}
